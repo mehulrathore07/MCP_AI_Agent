@@ -19,8 +19,9 @@ from llama_index.core.agent.workflow import (
     ToolCall,
     ToolCallResult,
 )
-from llama_index.llms.google_genai import GoogleGenAI  # Optional cloud LLM
+# from llama_index.llms.google_genai import GoogleGenAI  # Optional cloud LLM
 # from llama_index.llms.ollama import Ollama
+from llama_index.llms.google import Gemini
 from llama_index.core import Settings
 
 
@@ -45,7 +46,7 @@ from llama_index.core import Settings
 def setup_llm_gemini():
     API_KEY = "AIzaSyBKidii6NfzRR4fJKFloLSdu0mcN01LUTMm"
     # print(";;;===================",API_KEY)
-    llm = GoogleGenAI(
+    llm = Gemini(
         model="gemini-2.5-flash-preview-05-20",
         api_key=API_KEY
     )
