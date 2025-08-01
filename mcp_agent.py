@@ -19,7 +19,7 @@ from llama_index.core.agent.workflow import (
     ToolCall,
     ToolCallResult,
 )
-from llama_index.llms.llama_cpp import LlamaCPP
+# from llama_index.llms.llama_cpp import LlamaCPP
 from llama_index.llms.google_genai import GoogleGenAI  # Optional cloud LLM
 # from llama_index.llms.ollama import Ollama
 from llama_index.core import Settings
