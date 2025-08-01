@@ -7,4 +7,5 @@ llama-index
 ollama
 httpx
 jinja2
+llama-index[llms-google]
 
