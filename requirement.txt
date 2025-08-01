@@ -8,4 +8,4 @@ ollama
 httpx
 jinja2
 llama-index[llms-google]
-
+google-generativeai
