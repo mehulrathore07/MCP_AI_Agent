@@ -44,7 +44,7 @@ from llama_index.core import Settings
 #     Settings.llm = llm
 
 def setup_llm_gemini():
-    API_KEY = "AIzaSyBKidii6NfzRR4fJKFloLSdu0mcN01LUTMm"
+    API_KEY = "AIzaSyBKidii6NfzRR4fJKFloLSdu0mcN01LUTM"
     # print(";;;===================",API_KEY)
     llm = Gemini(
         model="gemini-2.5-flash-preview-05-20",
