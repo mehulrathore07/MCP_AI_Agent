@@ -21,7 +21,8 @@ from llama_index.core.agent.workflow import (
 )
 # from llama_index.llms.google_genai import GoogleGenAI  # Optional cloud LLM
 # from llama_index.llms.ollama import Ollama
-from llama_index.llms.google import Gemini
+
+from llama_index.llms.gemini import Gemini
 from llama_index.core import Settings
 
 
